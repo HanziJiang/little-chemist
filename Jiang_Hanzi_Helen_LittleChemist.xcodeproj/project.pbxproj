@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2208FC7E2014028000D9BBD5 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2208FC7D2014028000D9BBD5 /* NewViewController.swift */; };
+		22243CD31FF8B4E2007CC8C1 /* soundPowder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22243CD21FF8B4E2007CC8C1 /* soundPowder.mp3 */; };
+		224F1D602017DE8100DBB1AC /* soundBoil.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 224F1D5F2017DE8100DBB1AC /* soundBoil.mp3 */; };
+		226A50BA1FF41A16004F4824 /* soundMetal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 226A50B91FF41A16004F4824 /* soundMetal.mp3 */; };
 		2284F8741FF027C50087D26C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2284F8731FF027C50087D26C /* AppDelegate.swift */; };
 		2284F8761FF027C50087D26C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2284F8751FF027C50087D26C /* GameScene.sks */; };
 		2284F8781FF027C50087D26C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2284F8771FF027C50087D26C /* Actions.sks */; };
@@ -17,6 +21,7 @@
 		2284F8841FF027C50087D26C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2284F8821FF027C50087D26C /* LaunchScreen.storyboard */; };
 		2284F88F1FF027C60087D26C /* Jiang_Hanzi_Helen_LittleChemistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2284F88E1FF027C60087D26C /* Jiang_Hanzi_Helen_LittleChemistTests.swift */; };
 		2284F89A1FF027C60087D26C /* Jiang_Hanzi_Helen_LittleChemistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2284F8991FF027C60087D26C /* Jiang_Hanzi_Helen_LittleChemistUITests.swift */; };
+		22D01D1B1FF358C900A269F8 /* soundBeaker.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22D01D1A1FF358C800A269F8 /* soundBeaker.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2208FC7D2014028000D9BBD5 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		22243CD21FF8B4E2007CC8C1 /* soundPowder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = soundPowder.mp3; sourceTree = "<group>"; };
+		224F1D5F2017DE8100DBB1AC /* soundBoil.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = soundBoil.mp3; path = ../../soundBoil.mp3; sourceTree = "<group>"; };
+		226A50B91FF41A16004F4824 /* soundMetal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = soundMetal.mp3; sourceTree = "<group>"; };
 		2284F8701FF027C50087D26C /* Jiang_Hanzi_Helen_LittleChemist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jiang_Hanzi_Helen_LittleChemist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2284F8731FF027C50087D26C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2284F8751FF027C50087D26C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -53,6 +62,7 @@
 		2284F8951FF027C60087D26C /* Jiang_Hanzi_Helen_LittleChemistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jiang_Hanzi_Helen_LittleChemistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2284F8991FF027C60087D26C /* Jiang_Hanzi_Helen_LittleChemistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jiang_Hanzi_Helen_LittleChemistUITests.swift; sourceTree = "<group>"; };
 		2284F89B1FF027C60087D26C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22D01D1A1FF358C800A269F8 /* soundBeaker.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = soundBeaker.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,14 +113,19 @@
 		2284F8721FF027C50087D26C /* Jiang_Hanzi_Helen_LittleChemist */ = {
 			isa = PBXGroup;
 			children = (
-				2284F8731FF027C50087D26C /* AppDelegate.swift */,
-				2284F8751FF027C50087D26C /* GameScene.sks */,
-				2284F8771FF027C50087D26C /* Actions.sks */,
-				2284F8791FF027C50087D26C /* GameScene.swift */,
-				2284F87B1FF027C50087D26C /* GameViewController.swift */,
-				2284F87D1FF027C50087D26C /* Main.storyboard */,
 				2284F8801FF027C50087D26C /* Assets.xcassets */,
+				2284F87B1FF027C50087D26C /* GameViewController.swift */,
+				2284F8791FF027C50087D26C /* GameScene.swift */,
+				2208FC7D2014028000D9BBD5 /* NewViewController.swift */,
+				224F1D5F2017DE8100DBB1AC /* soundBoil.mp3 */,
+				22D01D1A1FF358C800A269F8 /* soundBeaker.mp3 */,
+				22243CD21FF8B4E2007CC8C1 /* soundPowder.mp3 */,
+				226A50B91FF41A16004F4824 /* soundMetal.mp3 */,
+				2284F8751FF027C50087D26C /* GameScene.sks */,
 				2284F8821FF027C50087D26C /* LaunchScreen.storyboard */,
+				2284F87D1FF027C50087D26C /* Main.storyboard */,
+				2284F8731FF027C50087D26C /* AppDelegate.swift */,
+				2284F8771FF027C50087D26C /* Actions.sks */,
 				2284F8851FF027C50087D26C /* Info.plist */,
 			);
 			path = Jiang_Hanzi_Helen_LittleChemist;
@@ -241,11 +256,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				226A50BA1FF41A16004F4824 /* soundMetal.mp3 in Resources */,
 				2284F87F1FF027C50087D26C /* Main.storyboard in Resources */,
 				2284F8761FF027C50087D26C /* GameScene.sks in Resources */,
 				2284F8811FF027C50087D26C /* Assets.xcassets in Resources */,
+				224F1D602017DE8100DBB1AC /* soundBoil.mp3 in Resources */,
 				2284F8841FF027C50087D26C /* LaunchScreen.storyboard in Resources */,
+				22D01D1B1FF358C900A269F8 /* soundBeaker.mp3 in Resources */,
 				2284F8781FF027C50087D26C /* Actions.sks in Resources */,
+				22243CD31FF8B4E2007CC8C1 /* soundPowder.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +292,7 @@
 				2284F87A1FF027C50087D26C /* GameScene.swift in Sources */,
 				2284F87C1FF027C50087D26C /* GameViewController.swift in Sources */,
 				2284F8741FF027C50087D26C /* AppDelegate.swift in Sources */,
+				2208FC7E2014028000D9BBD5 /* NewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,12 +459,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Jiang_Hanzi_Helen_LittleChemist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.periodfour.Jiang-Hanzi-Helen-LittleChemist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -453,12 +474,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Jiang_Hanzi_Helen_LittleChemist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.periodfour.Jiang-Hanzi-Helen-LittleChemist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

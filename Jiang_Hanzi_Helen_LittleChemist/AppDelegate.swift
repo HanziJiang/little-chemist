@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Jiang_Hanzi_Helen_LittleChemist
-//
-//  Created by kaka on 2017-12-24.
-//  Copyright © 2017 Period Four. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
